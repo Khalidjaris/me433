@@ -1,0 +1,6 @@
+
+{
+  "cmake.environment": {
+  "PICO_SDK_PATH":"/Users/Omniajam/Desktop/me433/Pico/pico-sdk"
+  },
+}
