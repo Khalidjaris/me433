@@ -6,4 +6,5 @@
       "stdlib.h": "c",
       "time.h": "c"
     },
+    "cmake.configureOnOpen": true,
   }
