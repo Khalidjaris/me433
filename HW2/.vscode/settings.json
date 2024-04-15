@@ -7,4 +7,5 @@
       "time.h": "c"
     },
     "cmake.configureOnOpen": true,
+    "C_Cpp.errorSquiggles": "enabled",
   }
