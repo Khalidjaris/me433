@@ -3,7 +3,7 @@ add_executable(bmp280_i2c
         )
 
 # pull in common dependencies and additional i2c hardware support
-target_link_libraries(bmp280_i2c pico_stdlib hardware_i2c)
+target_link_libraries(bmp280_i2c pico_stdlib pico_binary_info hardware_i2c hardware_adc)
 
 # create map/bin/hex file etc.
 pico_add_extra_outputs(bmp280_i2c)

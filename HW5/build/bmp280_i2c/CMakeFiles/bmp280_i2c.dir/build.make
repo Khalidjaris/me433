@@ -716,6 +716,20 @@ bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build/bmp280_i2c && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
+bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: bmp280_i2c/CMakeFiles/bmp280_i2c.dir/flags.make
+bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: bmp280_i2c/CMakeFiles/bmp280_i2c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/Omniajam/Documents/GitHub/me433/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build/bmp280_i2c && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build/bmp280_i2c && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build/bmp280_i2c && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 # Object files for target bmp280_i2c
 bmp280_i2c_OBJECTS = \
 "CMakeFiles/bmp280_i2c.dir/bmp280_i2c.c.obj" \
@@ -764,7 +778,8 @@ bmp280_i2c_OBJECTS = \
 "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
 "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
-"CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+"CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
 # External object files for target bmp280_i2c
 bmp280_i2c_EXTERNAL_OBJECTS =
@@ -816,10 +831,11 @@ bmp280_i2c/bmp280_i2c.elf: bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/D
 bmp280_i2c/bmp280_i2c.elf: bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 bmp280_i2c/bmp280_i2c.elf: bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 bmp280_i2c/bmp280_i2c.elf: bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+bmp280_i2c/bmp280_i2c.elf: bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 bmp280_i2c/bmp280_i2c.elf: bmp280_i2c/CMakeFiles/bmp280_i2c.dir/build.make
 bmp280_i2c/bmp280_i2c.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 bmp280_i2c/bmp280_i2c.elf: bmp280_i2c/CMakeFiles/bmp280_i2c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/Omniajam/Documents/GitHub/me433/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable bmp280_i2c.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/Omniajam/Documents/GitHub/me433/HW5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable bmp280_i2c.elf"
 	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build/bmp280_i2c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bmp280_i2c.dir/link.txt --verbose=$(VERBOSE)
 	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build/bmp280_i2c && /opt/homebrew/bin/arm-none-eabi-objcopy -Oihex /Users/Omniajam/Documents/GitHub/me433/HW5/build/bmp280_i2c/bmp280_i2c.elf bmp280_i2c.hex
 	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build/bmp280_i2c && /opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/Omniajam/Documents/GitHub/me433/HW5/build/bmp280_i2c/bmp280_i2c.elf bmp280_i2c.bin

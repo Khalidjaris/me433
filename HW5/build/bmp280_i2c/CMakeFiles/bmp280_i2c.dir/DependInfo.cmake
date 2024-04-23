@@ -104,6 +104,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/boot_stage2/include"
   "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -117,6 +118,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/datetime.c" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.obj" "gcc" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.obj.d"
   "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/pheap.c" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.c" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
+  "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"

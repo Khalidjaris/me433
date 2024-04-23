@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
   "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
+  "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+  "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
   "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"

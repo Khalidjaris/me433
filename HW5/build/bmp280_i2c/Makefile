@@ -360,6 +360,30 @@ Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.c.s:
 	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build && $(MAKE) $(MAKESILENT) -f bmp280_i2c/CMakeFiles/bmp280_i2c.dir/build.make bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.c.s
 
+Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+
+# target to build an object file
+Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
+	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build && $(MAKE) $(MAKESILENT) -f bmp280_i2c/CMakeFiles/bmp280_i2c.dir/build.make bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+
+Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build && $(MAKE) $(MAKESILENT) -f bmp280_i2c/CMakeFiles/bmp280_i2c.dir/build.make bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	cd /Users/Omniajam/Documents/GitHub/me433/HW5/build && $(MAKE) $(MAKESILENT) -f bmp280_i2c/CMakeFiles/bmp280_i2c.dir/build.make bmp280_i2c/CMakeFiles/bmp280_i2c.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
@@ -1133,6 +1157,9 @@ help:
 	@echo "... Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
+	@echo "... Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
