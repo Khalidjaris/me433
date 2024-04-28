@@ -35,19 +35,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  15 .debug_abbrev 00007195  00000000  00000000  0003ceef  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_loclists 0000ee6d  00000000  00000000  00044084  2**0
+ 16 .debug_loclists 0000ee7d  00000000  00000000  00044084  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_aranges 00001610  00000000  00000000  00052ef8  2**3
+ 17 .debug_aranges 00001610  00000000  00000000  00052f08  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_rnglists 00001657  00000000  00000000  00054508  2**0
+ 18 .debug_rnglists 00001657  00000000  00000000  00054518  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   00017b5b  00000000  00000000  00055b5f  2**0
+ 19 .debug_line   00017b5a  00000000  00000000  00055b6f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    00007234  00000000  00000000  0006d6ba  2**0
+ 20 .debug_str    00007234  00000000  00000000  0006d6c9  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_frame  000042e0  00000000  00000000  000748f0  2**2
+ 21 .debug_frame  000042e0  00000000  00000000  00074900  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 0000047c  00000000  00000000  00078bd0  2**0
+ 22 .debug_line_str 0000047c  00000000  00000000  00078be0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /Users/Omniajam/Documents/GitHub/me433/HW3/build/print/print.elf:     file format elf32-littlearm
@@ -365,74 +365,74 @@ Disassembly of section .text:
 10000350:	2380      	movs	r3, #128	@ 0x80
 10000352:	021b      	lsls	r3, r3, #8
 10000354:	6263      	str	r3, [r4, #36]	@ 0x24
-10000356:	2000      	movs	r0, #0
+10000356:	2010      	movs	r0, #16
 10000358:	f000 f8a6 	bl	100004a8 <gpio_init>
-1000035c:	2301      	movs	r3, #1
-1000035e:	62a3      	str	r3, [r4, #40]	@ 0x28
-10000360:	f006 fe3c 	bl	10006fdc <adc_init>
-10000364:	201a      	movs	r0, #26
-10000366:	f7ff ffcf 	bl	10000308 <adc_gpio_init>
-1000036a:	4b23      	ldr	r3, [pc, #140]	@ (100003f8 <main+0xd0>)
-1000036c:	681b      	ldr	r3, [r3, #0]
-1000036e:	22e0      	movs	r2, #224	@ 0xe0
-10000370:	01d2      	lsls	r2, r2, #7
-10000372:	4013      	ands	r3, r2
-10000374:	4a21      	ldr	r2, [pc, #132]	@ (100003fc <main+0xd4>)
-10000376:	6013      	str	r3, [r2, #0]
-10000378:	481e      	ldr	r0, [pc, #120]	@ (100003f4 <main+0xcc>)
-1000037a:	f004 fae3 	bl	10004944 <__wrap_puts>
-1000037e:	e018      	b.n	100003b2 <main+0x8a>
-10000380:	4b1f      	ldr	r3, [pc, #124]	@ (10000400 <main+0xd8>)
-10000382:	2204      	movs	r2, #4
-10000384:	601a      	str	r2, [r3, #0]
-10000386:	4b1c      	ldr	r3, [pc, #112]	@ (100003f8 <main+0xd0>)
-10000388:	681b      	ldr	r3, [r3, #0]
-1000038a:	05db      	lsls	r3, r3, #23
-1000038c:	d5fb      	bpl.n	10000386 <main+0x5e>
-1000038e:	4b1a      	ldr	r3, [pc, #104]	@ (100003f8 <main+0xd0>)
-10000390:	685a      	ldr	r2, [r3, #4]
-10000392:	3401      	adds	r4, #1
-10000394:	0412      	lsls	r2, r2, #16
-10000396:	0c12      	lsrs	r2, r2, #16
-10000398:	481a      	ldr	r0, [pc, #104]	@ (10000404 <main+0xdc>)
-1000039a:	0021      	movs	r1, r4
-1000039c:	f004 fb02 	bl	100049a4 <__wrap_printf>
-100003a0:	200a      	movs	r0, #10
-100003a2:	f001 f9a4 	bl	100016ee <sleep_ms>
-100003a6:	9b01      	ldr	r3, [sp, #4]
-100003a8:	42a3      	cmp	r3, r4
-100003aa:	dce9      	bgt.n	10000380 <main+0x58>
-100003ac:	2032      	movs	r0, #50	@ 0x32
-100003ae:	f001 f99e 	bl	100016ee <sleep_ms>
-100003b2:	23d0      	movs	r3, #208	@ 0xd0
-100003b4:	061b      	lsls	r3, r3, #24
-100003b6:	2280      	movs	r2, #128	@ 0x80
-100003b8:	0212      	lsls	r2, r2, #8
-100003ba:	615a      	str	r2, [r3, #20]
-100003bc:	23d0      	movs	r3, #208	@ 0xd0
-100003be:	061b      	lsls	r3, r3, #24
-100003c0:	685b      	ldr	r3, [r3, #4]
-100003c2:	07db      	lsls	r3, r3, #31
-100003c4:	d5fa      	bpl.n	100003bc <main+0x94>
-100003c6:	23d0      	movs	r3, #208	@ 0xd0
-100003c8:	061b      	lsls	r3, r3, #24
-100003ca:	2280      	movs	r2, #128	@ 0x80
-100003cc:	0212      	lsls	r2, r2, #8
-100003ce:	619a      	str	r2, [r3, #24]
-100003d0:	480d      	ldr	r0, [pc, #52]	@ (10000408 <main+0xe0>)
-100003d2:	f004 fae7 	bl	100049a4 <__wrap_printf>
-100003d6:	480d      	ldr	r0, [pc, #52]	@ (1000040c <main+0xe4>)
-100003d8:	a901      	add	r1, sp, #4
-100003da:	f007 f97f 	bl	100076dc <scanf>
-100003de:	9901      	ldr	r1, [sp, #4]
-100003e0:	480b      	ldr	r0, [pc, #44]	@ (10000410 <main+0xe8>)
-100003e2:	f004 fadf 	bl	100049a4 <__wrap_printf>
-100003e6:	20fa      	movs	r0, #250	@ 0xfa
-100003e8:	00c0      	lsls	r0, r0, #3
-100003ea:	f001 f980 	bl	100016ee <sleep_ms>
-100003ee:	2400      	movs	r4, #0
-100003f0:	e7d9      	b.n	100003a6 <main+0x7e>
-100003f2:	46c0      	nop			@ (mov r8, r8)
+1000035c:	2380      	movs	r3, #128	@ 0x80
+1000035e:	025b      	lsls	r3, r3, #9
+10000360:	62a3      	str	r3, [r4, #40]	@ 0x28
+10000362:	f006 fe3b 	bl	10006fdc <adc_init>
+10000366:	201a      	movs	r0, #26
+10000368:	f7ff ffce 	bl	10000308 <adc_gpio_init>
+1000036c:	4b22      	ldr	r3, [pc, #136]	@ (100003f8 <main+0xd0>)
+1000036e:	681b      	ldr	r3, [r3, #0]
+10000370:	22e0      	movs	r2, #224	@ 0xe0
+10000372:	01d2      	lsls	r2, r2, #7
+10000374:	4013      	ands	r3, r2
+10000376:	4a21      	ldr	r2, [pc, #132]	@ (100003fc <main+0xd4>)
+10000378:	6013      	str	r3, [r2, #0]
+1000037a:	481e      	ldr	r0, [pc, #120]	@ (100003f4 <main+0xcc>)
+1000037c:	f004 fae2 	bl	10004944 <__wrap_puts>
+10000380:	e018      	b.n	100003b4 <main+0x8c>
+10000382:	4b1f      	ldr	r3, [pc, #124]	@ (10000400 <main+0xd8>)
+10000384:	2204      	movs	r2, #4
+10000386:	601a      	str	r2, [r3, #0]
+10000388:	4b1b      	ldr	r3, [pc, #108]	@ (100003f8 <main+0xd0>)
+1000038a:	681b      	ldr	r3, [r3, #0]
+1000038c:	05db      	lsls	r3, r3, #23
+1000038e:	d5fb      	bpl.n	10000388 <main+0x60>
+10000390:	4b19      	ldr	r3, [pc, #100]	@ (100003f8 <main+0xd0>)
+10000392:	685a      	ldr	r2, [r3, #4]
+10000394:	3401      	adds	r4, #1
+10000396:	0412      	lsls	r2, r2, #16
+10000398:	0c12      	lsrs	r2, r2, #16
+1000039a:	481a      	ldr	r0, [pc, #104]	@ (10000404 <main+0xdc>)
+1000039c:	0021      	movs	r1, r4
+1000039e:	f004 fb01 	bl	100049a4 <__wrap_printf>
+100003a2:	200a      	movs	r0, #10
+100003a4:	f001 f9a3 	bl	100016ee <sleep_ms>
+100003a8:	9b01      	ldr	r3, [sp, #4]
+100003aa:	42a3      	cmp	r3, r4
+100003ac:	dce9      	bgt.n	10000382 <main+0x5a>
+100003ae:	2032      	movs	r0, #50	@ 0x32
+100003b0:	f001 f99d 	bl	100016ee <sleep_ms>
+100003b4:	23d0      	movs	r3, #208	@ 0xd0
+100003b6:	061b      	lsls	r3, r3, #24
+100003b8:	2280      	movs	r2, #128	@ 0x80
+100003ba:	0212      	lsls	r2, r2, #8
+100003bc:	615a      	str	r2, [r3, #20]
+100003be:	23d0      	movs	r3, #208	@ 0xd0
+100003c0:	061b      	lsls	r3, r3, #24
+100003c2:	685b      	ldr	r3, [r3, #4]
+100003c4:	03db      	lsls	r3, r3, #15
+100003c6:	d5fa      	bpl.n	100003be <main+0x96>
+100003c8:	23d0      	movs	r3, #208	@ 0xd0
+100003ca:	061b      	lsls	r3, r3, #24
+100003cc:	2280      	movs	r2, #128	@ 0x80
+100003ce:	0212      	lsls	r2, r2, #8
+100003d0:	619a      	str	r2, [r3, #24]
+100003d2:	480d      	ldr	r0, [pc, #52]	@ (10000408 <main+0xe0>)
+100003d4:	f004 fae6 	bl	100049a4 <__wrap_printf>
+100003d8:	480c      	ldr	r0, [pc, #48]	@ (1000040c <main+0xe4>)
+100003da:	a901      	add	r1, sp, #4
+100003dc:	f007 f97e 	bl	100076dc <scanf>
+100003e0:	9901      	ldr	r1, [sp, #4]
+100003e2:	480b      	ldr	r0, [pc, #44]	@ (10000410 <main+0xe8>)
+100003e4:	f004 fade 	bl	100049a4 <__wrap_printf>
+100003e8:	20fa      	movs	r0, #250	@ 0xfa
+100003ea:	00c0      	lsls	r0, r0, #3
+100003ec:	f001 f97f 	bl	100016ee <sleep_ms>
+100003f0:	2400      	movs	r4, #0
+100003f2:	e7d9      	b.n	100003a8 <main+0x80>
 100003f4:	1000d130 	.word	0x1000d130
 100003f8:	4004c000 	.word	0x4004c000
 100003fc:	4004d000 	.word	0x4004d000

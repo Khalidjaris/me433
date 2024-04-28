@@ -1541,9 +1541,9 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .data          0x00000000        0x0 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .text          0x00000000        0x0 /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//ccHL7XTZ.o
- .data          0x00000000        0x0 /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//ccHL7XTZ.o
- .bss           0x00000000        0x0 /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//ccHL7XTZ.o
+ .text          0x00000000        0x0 /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//cckSP9D9.o
+ .data          0x00000000        0x0 /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//cckSP9D9.o
+ .bss           0x00000000        0x0 /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//cckSP9D9.o
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-calloc.o)
@@ -1981,7 +1981,7 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//ccHL7XTZ.o
+ .boot2         0x10000000      0x100 /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//cckSP9D9.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3951,7 +3951,7 @@ LOAD CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb
 LOAD CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-LOAD /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//ccHL7XTZ.o
+LOAD /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//cckSP9D9.o
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -4070,7 +4070,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007ce       0x2c CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .ARM.attributes
-                0x000007fa       0x22 /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//ccHL7XTZ.o
+                0x000007fa       0x22 /var/folders/pw/rqjygm7d3llcd2_n2yzs1wm80000gn/T//cckSP9D9.o
  .ARM.attributes
                 0x0000081c       0x1e /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -4325,79 +4325,79 @@ LOAD linker stubs
  .debug_abbrev  0x00007086      0x10f CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 .debug_loclists
-                0x00000000     0xee6d
+                0x00000000     0xee7d
  .debug_loclists
-                0x00000000      0x1a5 CMakeFiles/print.dir/print.c.obj
+                0x00000000      0x1b5 CMakeFiles/print.dir/print.c.obj
  .debug_loclists
-                0x000001a5      0xb61 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x000001b5      0xb61 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_loclists
-                0x00000d06       0xad CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x00000d16       0xad CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .debug_loclists
-                0x00000db3      0x2af CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000dc3      0x2af CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .debug_loclists
-                0x00001062      0x182 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00001072      0x182 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .debug_loclists
-                0x000011e4      0xdb7 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000011f4      0xdb7 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .debug_loclists
-                0x00001f9b       0x50 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x00001fab       0x50 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
  .debug_loclists
-                0x00001feb      0xa5b CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00001ffb      0xa5b CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .debug_loclists
-                0x00002a46       0xad CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x00002a56       0xad CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .debug_loclists
-                0x00002af3     0x146a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00002b03     0x146a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .debug_loclists
-                0x00003f5d      0x698 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00003f6d      0x698 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_loclists
-                0x000045f5      0x7aa CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00004605      0x7aa CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .debug_loclists
-                0x00004d9f      0x5c2 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00004daf      0x5c2 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_loclists
-                0x00005361      0x214 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x00005371      0x214 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .debug_loclists
-                0x00005575      0x1fd CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x00005585      0x1fd CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_loclists
-                0x00005772       0x48 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x00005782       0x48 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_loclists
-                0x000057ba      0x3d9 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000057ca      0x3d9 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_loclists
-                0x00005b93     0x16f9 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00005ba3     0x16f9 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .debug_loclists
-                0x0000728c      0x14d CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000729c      0x14d CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_loclists
-                0x000073d9       0x41 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x000073e9       0x41 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .debug_loclists
-                0x0000741a       0x4f CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000742a       0x4f CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .debug_loclists
-                0x00007469      0x15a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x00007479      0x15a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .debug_loclists
-                0x000075c3      0x8c2 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000075d3      0x8c2 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_loclists
-                0x00007e85      0x2b2 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00007e95      0x2b2 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .debug_loclists
-                0x00008137      0x521 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00008147      0x521 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .debug_loclists
-                0x00008658       0xe7 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x00008668       0xe7 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .debug_loclists
-                0x0000873f       0xbd CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000874f       0xbd CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .debug_loclists
-                0x000087fc      0x665 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000880c      0x665 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .debug_loclists
-                0x00008e61      0xacc CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00008e71      0xacc CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_loclists
-                0x0000992d      0x524 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000993d      0x524 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_loclists
-                0x00009e51     0x182f CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00009e61     0x182f CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .debug_loclists
-                0x0000b680      0x315 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000b690      0x315 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_loclists
-                0x0000b995      0xd05 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000b9a5      0xd05 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_loclists
-                0x0000c69a      0x912 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000c6aa      0x912 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .debug_loclists
-                0x0000cfac     0x1e65 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000cfbc     0x1e65 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_loclists
-                0x0000ee11       0x5c CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+                0x0000ee21       0x5c CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 .debug_aranges  0x00000000     0x1610
  .debug_aranges
@@ -4584,53 +4584,53 @@ LOAD linker stubs
  .debug_rnglists
                 0x00001644       0x13 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
-.debug_line     0x00000000    0x17b5b
- .debug_line    0x00000000      0x6e1 CMakeFiles/print.dir/print.c.obj
- .debug_line    0x000006e1      0xc7f CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00001360      0x2cf CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x0000162f      0x4df CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00001b0e      0x4c9 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00001fd7     0x10eb CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x000030c2      0x280 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00003342     0x1154 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00004496      0x312 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x000047a8     0x1a6a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00006212      0xc9b CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00006ead      0x86c CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00007719      0xabf CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x000081d8      0x581 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00008759      0x4a6 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00008bff      0x2e6 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00008ee5      0xbc0 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00009aa5     0x12f6 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000ad9b      0x11a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000aeb5      0x2a5 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000b15a      0x2a9 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000b403      0x3fa CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000b7fd      0x40c CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000bc09      0x66c CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000c275       0x61 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000c2d6      0x3b2 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000c688      0x401 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000ca89      0x198 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000cc21      0x260 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_line    0x0000ce81       0x94 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000cf15       0xa5 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000cfba      0x20a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000d1c4      0xf94 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000e158      0x519 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0000e671      0xe94 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x0000f505      0x38b CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0000f890      0x40e CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x0000fc9e      0x920 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x000105be      0xfa2 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x00011560      0xb3a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x0001209a     0x1f71 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x0001400b      0x57b CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x00014586      0xdef CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00015375      0xc58 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x00015fcd     0x1827 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x000177f4      0x367 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.debug_line     0x00000000    0x17b5a
+ .debug_line    0x00000000      0x6e0 CMakeFiles/print.dir/print.c.obj
+ .debug_line    0x000006e0      0xc7f CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x0000135f      0x2cf CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x0000162e      0x4df CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001b0d      0x4c9 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00001fd6     0x10eb CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x000030c1      0x280 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00003341     0x1154 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00004495      0x312 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x000047a7     0x1a6a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00006211      0xc9b CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00006eac      0x86c CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00007718      0xabf CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x000081d7      0x581 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00008758      0x4a6 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00008bfe      0x2e6 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00008ee4      0xbc0 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00009aa4     0x12f6 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000ad9a      0x11a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000aeb4      0x2a5 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000b159      0x2a9 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000b402      0x3fa CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000b7fc      0x40c CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000bc08      0x66c CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000c274       0x61 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000c2d5      0x3b2 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000c687      0x401 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000ca88      0x198 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000cc20      0x260 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_line    0x0000ce80       0x94 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000cf14       0xa5 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000cfb9      0x20a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000d1c3      0xf94 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000e157      0x519 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0000e670      0xe94 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x0000f504      0x38b CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0000f88f      0x40e CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x0000fc9d      0x920 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x000105bd      0xfa2 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x0001155f      0xb3a CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x00012099     0x1f71 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x0001400a      0x57b CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x00014585      0xdef CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00015374      0xc58 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x00015fcc     0x1827 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x000177f3      0x367 CMakeFiles/print.dir/Users/Omniajam/Desktop/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 .debug_str      0x00000000     0x7234
  .debug_str     0x00000000     0x7234 CMakeFiles/print.dir/print.c.obj
