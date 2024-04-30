@@ -1,0 +1,15 @@
+{
+    "cmake.environment": {
+    "PICO_SDK_PATH":"/Users/Omniajam/Desktop/me433/Pico/pico-sdk"
+    },
+    "files.associations": {
+      "*.js": "javascript",
+      "stdlib.h": "c",
+      "time.h": "c",
+      "stdio.h": "c",
+      "binary_info.h": "c",
+      "adc.h": "c",
+      "i2c.h": "c"
+    },
+    "cmake.configureOnOpen": true,
+  }
