@@ -16,6 +16,7 @@ add_executable(main
 
 # Add pico_stdlib library which aggregates commonly used features
 target_link_libraries(main pico_stdlib hardware_i2c hardware_adc)
+target_link_libraries(main pico_stdlib pico_unique_id tinyusb_device tinyusb_board)
 
 # For Using Screen 
 # Note: Change file name
