@@ -11,11 +11,11 @@
 volatile char m[100];
 volatile int current;
 
-void servo_init();
+void pwm_pin_init();
 void change_angle(uint angle);
 
 // Set for 50 Hz
-void servo_init() {
+void pwm_pin_init() {
   gpio_set_function(LEDPIN, GPIO_FUNC_PWM); // Set the LED Pin to be PWM
   uint slice_num = pwm_gpio_to_slice_num(LEDPIN); // Get PWM slice number
   float div = 40; // must be between 1-255
@@ -52,7 +52,7 @@ void change_angle(uint angle) {
 int main() {
 
     // SERVO Initialize
-    servo_init();
+    pwm_pin_init();
 
     // PRINTF Initialize
     // stdio_init_all();
