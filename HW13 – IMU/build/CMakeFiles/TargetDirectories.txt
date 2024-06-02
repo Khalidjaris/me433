@@ -1,4 +1,4 @@
-/Users/Omniajam/Documents/GitHub/me433/HW13 – IMU/build/CMakeFiles/main.dir
+/Users/Omniajam/Documents/GitHub/me433/HW13 – IMU/build/CMakeFiles/mouse.dir
 /Users/Omniajam/Documents/GitHub/me433/HW13 – IMU/build/CMakeFiles/ELF2UF2Build.dir
 /Users/Omniajam/Documents/GitHub/me433/HW13 – IMU/build/CMakeFiles/edit_cache.dir
 /Users/Omniajam/Documents/GitHub/me433/HW13 – IMU/build/CMakeFiles/rebuild_cache.dir
